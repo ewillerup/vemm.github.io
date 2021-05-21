@@ -62,13 +62,12 @@ body {
 .nav-item {
 	display: inline-block;
 	font-family: sans-serif;
-	margin: auto auto;
+	margin: 0 48px;
 	font-size: 25px;
 }
 .link {
 	color: rgb(238, 145, 160);
 	text-decoration: none;
-	margin: 0 48px;
 }
 .link:hover {
 	background-color: white;
@@ -76,11 +75,16 @@ body {
 	width: auto;
 	height: auto;
 }
+.link-selected {
+	color:white;
+}
 
 .list {
 	background-color:rgb(31, 31, 31);
 	color: white;
-	margin: 192px 384px;
+	margin-top: 192px;
+	margin-left: 15%;
+	margin-right: 15%;
 	border: 10px solid white;
 	height: 100%;
 	font-family: sans-serif;
@@ -94,9 +98,9 @@ body {
 }
 .list-item {
 	width: auto;
-	padding: 25px;
-	font-size: 25px;
-	border: 2px solid white;
+	padding-left: 25px;
+	font-size: 24px;
+	border: 1px solid white;
 }
 .list-element {
 	
@@ -106,10 +110,15 @@ table {
 	border-collapse: collapse;
 	color: white;
 	width: 100%;
+	overflow: hidden;
 }
 td, th {
 	text-align: left;
-	padding: 16px 56px 16px 16px;
+	padding: 16px 96px 16px 16px;
+	/* padding-left: 8px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	padding-right: 32px; */
 	border: 1px solid #dddddd;
 }
 

@@ -115,8 +115,8 @@ body {
 	background-color:rgb(31, 31, 31);
 	color: white;
 	margin-top: 192px;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
 	border: 10px solid white;
 	height: 1024px;
 	font-family: sans-serif;
@@ -130,7 +130,6 @@ body {
 }
 .list-item {
 	width: auto;
-	padding-left: 25px;
 	font-size: 24px;
 	border: 1px solid white;
 }
@@ -142,7 +141,7 @@ table {
 	border-collapse: collapse;
 	color: white;
 	width: 100%;
-	overflow: hidden;
+	overflow: scroll;
 }
 td, th {
 	text-align: left;

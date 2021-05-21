@@ -52,16 +52,19 @@ body {
 .music-embed {
 	margin-right: 32px;
 	margin-bottom: 32px;
-	display: inline-block;
 }
 
+.polaroid-slideshow {
+	display: inline-block;
+}
 .polaroid {
 	background-color: rgb(245, 245, 245);
 	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.473);
 	height: 420px;
 	width: 350px;
+	margin-left: 64px;
+	margin-bottom: 64px;
 	display: inline-block;
-	margin-left: 192px;
 }
 .polaroid:hover {
 	transform: rotate(2deg);
@@ -75,9 +78,12 @@ body {
 .polaroid-text {
 	font-family: 'Brush Script MT', cursive;
 	margin-top: -10px;
+	margin-left: 10px;
+	margin-right: 10px;
 	font-size: 25px;
 	text-align: center;
 	line-height: 95%;
+	display: flex;
 }
 
 /* Navbar */

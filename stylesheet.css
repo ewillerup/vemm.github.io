@@ -28,6 +28,7 @@ h2 {
 body {
   	display: block;
   	margin: 0;
+	margin-bottom: 192px;
 }
 .home-logo {
 	background-color: white;
@@ -35,7 +36,7 @@ body {
 	border-radius: 50%;
 	width: 384px;
 	height: 256px;
-	margin: 256px auto;
+	margin: 128px auto;
 	display: flex;
 }
 .home-center-text {
@@ -44,6 +45,42 @@ body {
 	font-family: sans-serif;
 	margin: auto auto;
 }
+
+.slideshow {
+	margin: 48px 96px;
+}
+.music-embed {
+	margin-right: 32px;
+	margin-bottom: 32px;
+	display: inline-block;
+}
+
+.polaroid {
+	background-color: rgb(245, 245, 245);
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.473);
+	height: 420px;
+	width: 350px;
+	display: inline-block;
+	margin-left: 192px;
+}
+.polaroid:hover {
+	transform: rotate(2deg);
+}
+.polaroid-photo {
+	height: 310px;
+	width: 310px;
+	object-fit: cover;
+	margin: 25px 19px;
+}
+.polaroid-text {
+	font-family: 'Brush Script MT', cursive;
+	margin-top: -10px;
+	font-size: 25px;
+	text-align: center;
+	line-height: 95%;
+}
+
+/* Navbar */
 .navbar {
 	background-color:rgb(27, 27, 27);
 	color: white;
@@ -58,13 +95,13 @@ body {
 .text-center {
 	text-align: center;
 }
-
 .nav-item {
 	display: inline-block;
 	font-family: sans-serif;
 	margin: 0 48px;
 	font-size: 25px;
 }
+
 .link {
 	color: rgb(238, 145, 160);
 	text-decoration: none;
@@ -129,8 +166,8 @@ Contact Form
 input[type=text], select, textarea {
 	width: 100%; /* Full width */
 	padding: 12px; /* Some padding */ 
-	border: 1px solid #ccc; /* Gray border */
-	border-radius: 4px; /* Rounded borders */
+	border: 0px solid #ccc; /* Gray border */
+	border-radius: 0px; /* Rounded borders */
 	box-sizing: border-box; /* Make sure that padding and width stays in place */
 	margin-top: 6px; /* Add a top margin */
 	margin-bottom: 16px; /* Bottom margin */
@@ -139,7 +176,7 @@ input[type=text], select, textarea {
   
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-	background-color: #04AA6D;
+	background-color: rgb(238, 145, 160);
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -149,12 +186,14 @@ input[type=submit] {
   
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-	background-color: #45a049;
+	background-color: rgb(199, 121, 134);
 }
   
 /* Add a background color and some padding around the form */
 .container {
 	border-radius: 5px;
-	background-color: #f2f2f2;
+	background-color: rgb(212, 212, 212);
 	padding: 20px;
+	width: 50%;
+	margin: 96px auto;
 }

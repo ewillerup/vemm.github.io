@@ -40,11 +40,11 @@
 		</div>
 		
 		<div class="socials">
-			<a href="https://www.instagram.com/vemmtheband" target="_blank">
-				<img class="social-media-icon" src="assets/socials/insta.png" alt="Instagram"></a>
-			</a>
 			<a href="https://www.youtube.com/channel/UCA2lgJIcQqRYIO4p8_qsayQ" target="_blank">
 				<img class="social-media-icon" src="assets/socials/youtube.png" alt="YouTube"></a>
+			</a>
+			<a href="https://www.instagram.com/vemmtheband" target="_blank">
+				<img class="social-media-icon" src="assets/socials/insta.png" alt="Instagram"></a>
 			</a>
 			<a href="https://twitter.com/vemmtheband" target="_blank">
 				<img class="social-media-icon" src="assets/socials/twitter.png" alt="Twitter"></a>
@@ -52,9 +52,12 @@
 		</div>>
 
 		<!-- Polaroids -->
-		<div class="polaroid-slideshow">
+		<div class="polaroid-container">
 			<div class="polaroid">
 				<img class="polaroid-photo" src="assets/photos/pink-band.jpeg" alt="Band photo"></a>
+				<p class="polaroid-hover-text hide">
+					click for more
+				</p>
 				<p class="polaroid-text">
 					pink band before illumibrate
 				</p>
@@ -74,9 +77,20 @@
 			<div class="polaroid">
 				<img class="polaroid-photo" src="assets/photos/michael-burns.jpg" alt="Michael in the backyard"></a>
 				<p class="polaroid-text">
-					Michael burns something
+					Michael
 				</p>
 			</div>
 		</div>
 	</body>
+
+	
+<script>
+	document.write(
+		'<script src="http://' +
+		(location.host || '${1:localhost}').split(':')[0] +
+		':${2:35729}/livereload.js?snipver=1"></' +
+		'script>'
+	);
+</script>
+
 </html>

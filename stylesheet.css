@@ -144,7 +144,7 @@ p {
 .list {
 	background-color:rgb(31, 31, 31);
 	color: white;
-	margin-top: 192px;
+	margin-top: 0px;
 	margin-left: 10%;
 	margin-right: 10%;
 	border: 10px solid white;
@@ -174,7 +174,7 @@ table {
 }
 td, th {
 	text-align: left;
-	padding: 16px 96px 16px 16px;
+	padding: 16px 16px 16px 16px;
 	/* padding-left: 8px;
 	padding-top: 16px;
 	padding-bottom: 16px;

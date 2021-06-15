@@ -37,7 +37,7 @@ p {
 .social-media-icon {
 	width: 48px;
 	height: auto;
-	margin-left: 32px;
+	margin-left: 24px;
 	display: inline-block;
 }
 .social-media-icon:hover {
@@ -60,16 +60,16 @@ p {
 }
 .polaroid {
 	background-color: rgb(245, 245, 245);
-	box-shadow: 0px 2px 3px 2px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.7);
 	height: 420px;
 	width: 350px;
 	margin: 16px;
 	display: inline-block;
-	transition: box-shadow 0.1s ease-out 100ms;
+	transition: all 0.1s ease-out 100ms;
 }
 .polaroid:hover {
 	box-shadow: 0px 15px 15px 5px rgba(0, 0, 0, 0.5);
-	transform: scale(10%);
+	transform: scale(105%);
 }
 .polaroid-photo {
 	height: 310px;
@@ -93,9 +93,6 @@ p {
 	font-size: 32px;
 	margin-top: -10px;
 	position: absolute;
-}
-.polaroid-hover-text:hover + .hide {
-	display: block;
 }
 
 /* Navbar */

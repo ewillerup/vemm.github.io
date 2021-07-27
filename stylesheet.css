@@ -7,7 +7,7 @@ body {
 	margin-bottom: 192px;
 }
 p {
-	font-size: 48px;
+	font-size: 40px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .home-logo {
@@ -115,14 +115,14 @@ p {
 	display: inline-block;
 	font-family: 'Josefin Sans', sans-serif;
 	margin: 0 32px;
-	font-size: 64px;
+	font-size: 48px;
 	line-height: 110%;
 }
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
 	.navbar {
 		height: 168px;
 	}
-}
+} */
 
 .link {
 	color: rgb(238, 145, 160);
@@ -130,9 +130,10 @@ p {
 }
 .link:hover {
 	background-color: white;
-	border-radius: 50%;
+	border-radius: 15%;
 	width: auto;
 	height: auto;
+	transition: 0.3s;
 }
 .link-selected {
 	color:white;
@@ -142,23 +143,21 @@ p {
 	background-color:rgb(31, 31, 31);
 	color: white;
 	margin-top: 0px;
-	margin-left: 10%;
-	margin-right: 10%;
-	border: 10px solid white;
+	/* margin-left: 10%;
+	margin-right: 10%; */
 	height: 1024px;
 	font-family: 'Josefin Sans', sans-serif;
-}
-.list-header {
-
+	margin: auto;
+	max-width: 1150px;
 }
 .list-body {
+	overflow: hidden; /* Hide scrollbars */
 	display: inline-block;
 	list-style-type: none;
 }
 .list-item {
 	width: auto;
-	font-size: 32px;
-	border: 1px solid white;
+	font-size: 24px;
 }
 .list-element {
 	
@@ -176,7 +175,7 @@ td, th {
 	padding-top: 16px;
 	padding-bottom: 16px;
 	padding-right: 32px; */
-	border: 1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
 }
 
 /*
@@ -219,9 +218,8 @@ input[type=submit]:hover {
 }
 
 .text-container {
-	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
-	padding: 20px;
+	padding: 32px;
 	width: 75%;
 	margin: 96px auto;
 	border-radius: 12px;

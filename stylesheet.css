@@ -28,14 +28,14 @@ p {
 }
 .socials {
 	margin: auto;
-	background-color: white;
-	width: 256px;
-	padding: 12px;
+	background-color: rgb(255, 255, 255);
+	width: 384px;
+	padding: 16px;
 	border-radius: 12px;
 	box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
 }
 .social-media-icon {
-	width: 48px;
+	width: 64px;
 	height: auto;
 	margin-left: 24px;
 	display: inline-block;

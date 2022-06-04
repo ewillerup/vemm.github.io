@@ -54,6 +54,8 @@ p {
 	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.473);
 }
 
+
+/* Polaroids */
 .polaroid-container {
 	text-align: center;
 	margin: auto;
@@ -114,15 +116,15 @@ p {
 .nav-item {
 	display: inline-block;
 	font-family: 'Josefin Sans', sans-serif;
-	margin: 0 32px;
+	margin: 0 16px;
 	font-size: 48px;
-	line-height: 110%;
+	line-height: 130%;
 }
-/* @media (max-width: 1000px) {
+@media (max-width: 1000px) {
 	.navbar {
 		height: 168px;
 	}
-} */
+}
 
 .link {
 	color: rgb(238, 145, 160);
@@ -219,9 +221,9 @@ input[type=submit]:hover {
 
 .text-container {
 	background-color: rgb(255, 255, 255);
-	padding: 32px;
+	padding: 25px;
 	width: 75%;
-	margin: 96px auto;
+	margin: 25px auto;
 	border-radius: 12px;
 	box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
 }

@@ -8,6 +8,7 @@ body {
 }
 p {
 	font-size: 40px;
+	padding: 25px;
 	font-family: 'Josefin Sans', sans-serif;
 }
 .home-logo {
@@ -55,39 +56,59 @@ p {
 }
 
 
+
+/* Text boxes */
+.text-container {
+	background-color: rgb(255, 255, 255);
+	box-shadow: inset 0px 0px 15px rgba(1, 1, 1, 0.3) 
+	, -5px 10px rgba(0, 0, 0, 0.5);
+	width: 75%;
+	margin: 25px auto;
+	border-radius: 32px;
+}
+@media (min-width: 1200px) {
+	.text-container {
+		width: 860px;
+	}
+}
+
+
 /* Polaroids */
 .polaroid-container {
 	text-align: center;
 	margin: auto;
+	
 }
+
 .polaroid {
 	background-color: rgb(245, 245, 245);
-	box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.7);
+	box-shadow: inset 0px 0px 15px rgba(1, 1, 1, 0.3) 
+	, -5px 10px rgba(0, 0, 0, 0.5);
 	height: 420px;
 	width: 350px;
 	margin: 16px;
 	display: inline-block;
-	transition: all 0.1s ease-out 100ms;
+	transition: all 0.1s ease-out 50ms;
 }
 .polaroid:hover {
-	box-shadow: 0px 15px 15px 5px rgba(0, 0, 0, 0.5);
-	transform: scale(105%);
+	box-shadow: inset 0px 0px 15px rgba(1, 1, 1, 0.3)
+	, -10px 25px rgba(0, 0, 0, 0.5);
+	transform: scale(110%);
 }
 .polaroid-photo {
 	height: 310px;
 	width: 310px;
 	object-fit: cover;
 	margin: 25px 19px;
-	box-shadow: -1px -1px 2px 0px rgba(0, 0, 0, 0.8);
 }
 .polaroid-text {
 	font-family: 'Kalam', cursive;
-	margin-top: -10px;
-	margin-left: 25px;
+	margin-top: -30px;
+	margin-left: 10px;
 	margin-right: 10px;
 	font-size: 32px;
-	text-align: center;
-	line-height: 95%;
+	text-align: right;
+	line-height: 80%;
 	display: flex;
 }
 .polaroid-hover-text {
@@ -96,6 +117,18 @@ p {
 	margin-top: -10px;
 	position: absolute;
 }
+/* sheen */
+/* .polaroid-shiny {
+	background-color: rgb(245, 245, 245);
+	float: relative;
+	height: 310px;
+	width: 310px;
+	display: inline-block;
+	transition: all 0.1s ease-out 100ms;
+}
+.polaroid-shiny:hover {
+
+} */
 
 /* Navbar */
 .navbar {
@@ -217,15 +250,6 @@ input[type=submit]:hover {
 	padding: 20px;
 	width: 50%;
 	margin: 96px auto;
-}
-
-.text-container {
-	background-color: rgb(255, 255, 255);
-	padding: 25px;
-	width: 75%;
-	margin: 25px auto;
-	border-radius: 12px;
-	box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.5);
 }
 
 .hide {

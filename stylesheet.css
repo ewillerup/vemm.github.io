@@ -40,7 +40,6 @@ p {
 	height: auto;
 	margin-left: 24px;
 	display: inline-block;
-	box-shadow: -5px 5px 5px 2px rgba(0, 0, 0, 0.5);
 }
 .social-media-icon:hover {
 	

@@ -89,8 +89,9 @@ p {
 	transition: all 0.1s ease-out 50ms;
 }
 .polaroid:hover {
-	box-shadow: -10px 25px rgba(0, 0, 0, 0.5);
-	transform: scale(105%);
+	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
+	transform: scale(107%);
+	rotate: -3deg;
 }
 .polaroid-photo {
 	height: 310px;

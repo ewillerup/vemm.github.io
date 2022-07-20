@@ -1,33 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 <urlset xmlns="https://vemmtheband.com/sitemap.xml">
     <url>
         <loc>https://vemmtheband.com</loc>
-        <lastmod>2021-06-30</lastmod>
-        <changefreq>weekly</changefreq>
+        <lastmod>2022-07-20</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://vemmtheband.com/music.html</loc>
-        <lastmod>2021-06-21</lastmod>
+        <lastmod>2022-07-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://vemmtheband.com/tour.html</loc>
-        <lastmod>2021-06-27</lastmod>
-        <changefreq>monthly</changefreq>
+        <lastmod>2022-07-20</lastmod>
+        <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
         <loc>https://vemmtheband.com/contact.html</loc>
-        <lastmod>2021-06-10</lastmod>
+        <lastmod>2022-07-20</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.2</priority>
-    </url>
-    <url>
-        <loc>https://vemmtheband.com/passed-shows.html</loc>
-        <lastmod>2021-06-27</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.2</priority>
+        <priority>0.5</priority>
     </url>
 </urlset>

@@ -208,90 +208,12 @@ p {
 	text-decoration: none;
 }
 .link:hover {
-	background-color: rgba(216, 116, 133, 0.496);
+	background-color: white;
 	border-radius: 100%;
 	transition: 0.2s;
 }
 .link-selected {
 	color:white;
-}
-
-.list {
-	background-color:rgb(31, 31, 31);
-	color: white;
-	margin-top: 0px;
-	/* margin-left: 10%;
-	margin-right: 10%; */
-	height: 1024px;
-	font-family: 'Josefin Sans', sans-serif;
-	margin: auto;
-	max-width: 1150px;
-}
-.list-body {
-	overflow: hidden; /* Hide scrollbars */
-	display: inline-block;
-	list-style-type: none;
-}
-.list-item {
-	width: auto;
-	font-size: 24px;
-}
-.list-element {
-	
-}
-table {
-	border-collapse: collapse;
-	color: white;
-	width: 100%;
-	overflow: scroll;
-}
-td, th {
-	text-align: left;
-	padding: 16px 16px 16px 16px;
-	/* padding-left: 8px;
-	padding-top: 16px;
-	padding-bottom: 16px;
-	padding-right: 32px; */
-	border-bottom: 5px solid #484848;
-}
-
-/*
-Contact Form
-*/
-/* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-	width: 100%; /* Full width */
-	padding: 12px; /* Some padding */ 
-	border: 0px solid #ccc; /* Gray border */
-	border-radius: 0px; /* Rounded borders */
-	box-sizing: border-box; /* Make sure that padding and width stays in place */
-	margin-top: 6px; /* Add a top margin */
-	margin-bottom: 16px; /* Bottom margin */
-	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-  
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-	background-color: rgb(238, 145, 160);
-	color: white;
-	padding: 12px 20px;
-	border: none;
-	border-radius: 4px;
-	cursor: pointer;
-}
-  
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-	background-color: rgb(199, 121, 134);
-}
-  
-/* Add a background color and some padding around the form */
-.container {
-	border-radius: 5px;
-	background-color: rgb(212, 212, 212);
-	padding: 20px;
-	width: 50%;
-	margin: 96px auto;
 }
 
 .hide {

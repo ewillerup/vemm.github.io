@@ -9,7 +9,7 @@ body {
 p {
 	font-size: 40px;
 	padding: 25px;
-	font-family: 'Josefin Sans';
+	font-family: 'Josefin Sans', "Tahoma", "Verdana", sans-serif;
 }
 .home-logo {
 	background-color: white;
@@ -78,15 +78,15 @@ p {
 	margin: auto;
 	
 }
-
 .polaroid {
 	background-color: rgb(245, 245, 245);
 	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
-	height: auto;
+	height: 490px;
 	width: 350px;
 	margin: 16px;
 	display: inline-block;
 	transition: all 0.1s ease-out 50ms;
+	border-radius: 7px;
 }
 .polaroid:hover {
 	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
@@ -94,71 +94,64 @@ p {
 	rotate: -3deg;
 }
 .polaroid-photo {
-	height: 310px;
+	height: 350px;
 	width: 310px;
 	object-fit: cover;
-	margin: 25px 19px;
+	margin-left: 15px;
+	margin-top: 25px;
+	margin-right: 15px;
+	margin-bottom: 10px;
 }
 .polaroid-photo-poster {
-	width: 310px;
 	height: auto;
+	width: 310px;
 	object-fit: cover;
-	margin: 25px 19px;
+	margin-left: 15px;
+	margin-top: 25px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+	vertical-align: text-top;
 }
 .polaroid-text {
 	float: center;
-	font-family: 'Kalam', cursive;
-	margin-top: -40px;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 25px;
+	font-family: 'Kalam', "Brush Script MT", cursive;
+	margin-top: -25px;
 	font-size: 32px;
 	line-height: 95%;
 	display: flex;
-}
-.polaroid-hover-text {
-	font-family: 'Kalam', cursive;
-	font-size: 32px;
-	margin-top: -10px;
-	position: absolute;
+	color:rgb(34, 34, 34);
 }
 
+/* Post it notes */
 .postit {
 	background-color: rgb(245, 245, 245);
 	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
-	height: auto;
-	width: 300px;
-	margin: 16px;
+	height: 100px;
+	width: 100px;
+	margin: 12px;
 	display: inline-block;
 	transition: all 0.1s ease-out 50ms;
+	border-radius: 7px;
 }
 .postit:hover {
 	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
-	transform: scale(107%);
+	transform: scale(120%);
 	rotate: -3deg;
 }
 .postit-photo {
 	float: left;
-	height: 75px;
-	width: 75px;
-	margin: 15px 15px;
+	height: auto;
+	width: 70px;
+	margin: 15px;
+	vertical-align: center;
 }
 .postit-text {
-	float: center;
-	font-family: 'Kalam', cursive;
-	margin-top: 10px;
-	margin-left: 0px;
-	margin-right: 10px;
-	margin-bottom: 0px;
+	font-family: 'Kalam', "Brush Script MT", cursive;
+	margin: auto;
 	font-size: 36px;
 	line-height: 95%;
 	display: flex;
-}
-.postit-hover-text {
-	font-family: 'Kalam', cursive;
-	font-size: 35px;
-	margin-top: -10px;
-	position: absolute;
+	color:rgba(34, 34, 34, 0);
 }
 
 /* sheen */
@@ -192,7 +185,7 @@ p {
 }
 .nav-item {
 	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Josefin Sans', "Tahoma", "Verdana", sans-serif;
 	margin: 0 20px;
 	font-size: 55px;
 	line-height: 130%;

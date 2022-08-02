@@ -113,16 +113,21 @@ p {
 	vertical-align: text-top;
 }
 .polaroid-text {
+	display: flex;
 	float: center;
+	text-align: center;
 	font-family: 'Kalam', "Brush Script MT", cursive;
 	margin-top: -25px;
 	font-size: 32px;
 	line-height: 95%;
-	display: flex;
 	color:rgb(34, 34, 34);
 }
 
 /* Post it notes */
+.postit-container {
+	text-align: center;
+	margin-top: 35px;
+}
 .postit {
 	background-color: rgb(245, 245, 245);
 	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);

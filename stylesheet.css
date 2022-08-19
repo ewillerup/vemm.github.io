@@ -4,7 +4,7 @@
 body {
   	display: block;
   	margin: 0;
-	margin-bottom: 192px;
+	margin-bottom: 800px;
 }
 p {
 	font-size: 40px;
@@ -133,7 +133,7 @@ p {
 	box-shadow: 0px 5px 15px 5px rgba(0, 0, 0, 0.5);
 	height: 100px;
 	width: 100px;
-	margin: 12px;
+	margin: 16px;
 	display: inline-block;
 	transition: all 0.1s ease-out 50ms;
 	border-radius: 7px;
